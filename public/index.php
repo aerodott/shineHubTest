@@ -1,14 +1,19 @@
-
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
+<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>Material Bootstrap Wizard by Creative Tim</title>
 
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 	<script src="js.js"></script>
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
@@ -19,23 +24,68 @@
 </head>
 
 <body>
-    <div class="image-container set-full-height" style="background-image: url('http://demos.creative-tim.com/material-bootstrap-wizard/assets/img/wizard-book.jpg')">
+	
+	<nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top">
+  <!-- top nav -->
+  <nav class="navbar navbar-top hidden-xs">
+    <div class="container">
+      <!-- left nav top -->
+      <ul class="nav navbar-nav pull-left">
+        <li><a href="#"><span class="glyphicon glyphicon-thumbs-up text-white"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-globe text-white"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-pushpin text-white"></span></a></li>
+        <li><a href="#"><span class="text-white">QUESTIONS? CALL: <b>+2348178501899</b></span></a></li>
+      </ul>
+      <!-- right nav top -->
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="https://shinehub.com.au/about.php" class="text-white">About Us</a></li>
+        <li><a href="https://shinehub.com.au/about.php" class="text-white">Contact Us</a></li> 
+      </ul>
+    </div>
+    <div class="dividline light-grey"></div>
+  </nav>
+  <!-- down nav -->
+  <nav class="navbar navbar-down">
+    <div class="container">
+      <div class="flex-container">  
+        <div class="navbar-header flex-item">
+          <div class="navbar-brand" href="https://github.com/alphadsy">ShineHub</div>
+        </div>
+        <ul class="nav navbar-nav flex-item hidden-xs">
+          <li><a href="https://shinehub.com.au">Unit Calculator</a></li>
+          <li><a href="https://shinehub.com.au/products">Pricing</a></li> 
+          <li><a href="http://testshinehub.herokuapp.com/">Quotes</a></li> 
+        </ul>
+        <ul class="nav navbar-nav flex-item hidden-xs pull-right">
+          <li><a href="https://shinehub.com.au/products/" class="">FAQs</a></li> 
+        </ul>
+        <!-- dropdown only moblie -->
+          <div class="dropdown visible-xs pull-right">
+            <button class="btn btn-default dropdown-toggle " type="button" id="dropdownmenu" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-align-justify"></span> 
+            </button>
+            <ul class="dropdown-menu">
+               	<li><a href="https://shinehub.com.au">Unit Calculator</a></li>
+          		<li><a href="https://shinehub.com.au/products">Pricing</a></li> 
+          		<li><a href="http://testshinehub.herokuapp.com/">Quotes</a></li> 
+              <li role="separator" class="divider"></li>
+              <li><a href="#">contact us</a></li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+    </nav>
+  </nav> 
+<!--bg img  -->
+	
+    <div class="image-container set-full-height" style="background-image: url('https://images.freeimages.com/images/large-previews/76c/solarpower-is-beautiful-part-2-1623758.jpg')">
 	    <!--   Creative Tim Branding   -->
-	    <a href="http://creative-tim.com" target="_blank">
-	         <div class="logo-container">
-	            <div class="logo">
-	                <img src="http://demos.creative-tim.com/material-bootstrap-wizard/assets/img/new_logo.png">
-	            </div>
-	            <div class="brand">
-	                Creative Tim
-	            </div>
-	        </div>
-	    </a>
+	    
 
 		<!--  Made With Material Kit  -->
 		<a href="http://demos.creative-tim.com/material-kit/index.html?ref=material-bootstrap-wizard" class="made-with-mk" target="_blank">
-			<div class="brand">MK</div>
-			<div class="made-with">Made with <strong>Material Kit</strong></div>
+			<div class="brand">SH</div>
+			<div class="made-with">ShineHub <strong>Shining While Saving</strong></div>
 		</a>
 
 	    <!--   Big container   -->
@@ -201,11 +251,12 @@
 
 	    <div class="footer">
 	        <div class="container text-center">
-	             Made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com" target="_blank">Creative Tim</a>.
+	             Shine with <i class="fa fa-heart heart"></i> from <a href="http://www.creative-tim.com" target="_blank">ShineHub</a>.
 	        </div>
 	    </div>
 	</div>
-	
 </body>
 
 </html>
+
+
