@@ -65,6 +65,7 @@ if(isset($loginInformation) && count($loginInformation) > 0) {
 
             $envelope_definition= new DocuSign\eSign\Model\EnvelopeTemplate();//['','','','','']
             $envelope_definition->setEmailSubject('Please Sign this');
+            $envelope_definition->setEmailBlurb('Hey, I think I be body');
             $envelope_definition->setStatus('sent');
             //$envelope_definition->setDocuments([$envelope_document]);
             $envelope_definition->setEnvelopeTemplateDefinition($envelope_template_definition);
@@ -90,4 +91,4 @@ if(isset($loginInformation) && count($loginInformation) > 0) {
 else{
     echo "Som tin Wong";
 }
-print_r($envelope_definition);
+print_r('Template has been created.');
