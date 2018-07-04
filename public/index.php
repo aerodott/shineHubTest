@@ -166,7 +166,7 @@
 		                                <div class="row">
 		                                    <div class="col-sm-10 col-sm-offset-1">
 		                                        <div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="This is good if you travel alone.">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="This is good if You need solar for a bungalow or a mini house.">
 		                                                <input type="radio" name="job" value="family">
 		                                                <div class="icon">
 		                                                    <i class="material-icons">weekend</i>
@@ -175,7 +175,7 @@
 		                                            </div>
 		                                        </div>
 		                                        <div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this room if you're traveling with your family.">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this Your house is quite big, like a big duplex or mansion.">
 		                                                <input type="radio" name="job" value="bighome">
 		                                                <div class="icon">
 		                                                    <i class="material-icons">home</i>
@@ -184,7 +184,7 @@
 		                                            </div>
 		                                        </div>
 												<div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you are coming with your team.">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you need a large setup or you are a group of houses.">
 		                                                <input type="radio" name="job" value="business">
 		                                                <div class="icon">
 		                                                    <i class="material-icons">business</i>
