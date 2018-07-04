@@ -45,15 +45,18 @@ if(isset($loginInformation) && count($loginInformation) > 0) {
             $envelope_template_definition->setDescription('This is a test Template');
 
             $envelope_document = new DocuSign\eSign\Model\Document();
-            $envelope_document->setUri('/Docs/SignTest1.pdf');
+            $envelope_document->setUri('http://testshinehub.herokuapp.com/public/Docs/SignTest1.pdf');
             $envelope_document->setName('SomeTestDoc');
+            $envelope_document->setDocumentId(1);
 
             $signers = new DocuSign\eSign\Model\Signer();
             $signers->setName('Jon Doe');
+            $signers->setRecipientId(1);
             $signers->setEmail('abc@xyz.rst');
 
             $signer2 = new DocuSign\eSign\Model\Signer();
             $signer2->setName('Me Check');
+            $signer2->setRecipientId(2);
             $signer2->setEmail('aerodott@gmail.com');
 
             $envelope_recipient= new DocuSign\eSign\Model\Recipients();
@@ -84,6 +87,6 @@ if(isset($loginInformation) && count($loginInformation) > 0) {
     }
 }
 else{
-    echo "Somfin Wong";
+    echo "Som tin Wong";
 }
 print_r($envelope_definition);
