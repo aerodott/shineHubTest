@@ -44,10 +44,11 @@ if(isset($loginInformation) && count($loginInformation) > 0) {
             $envelope_template_definition->setName('Document Ginger Ale');
             $envelope_template_definition->setDescription('This is a test Template');
 
-            $envelope_document = new DocuSign\eSign\Model\Document();
-            $envelope_document->setUri('http://testshinehub.herokuapp.com/public/Docs/SignTest1.pdf');
-            $envelope_document->setName('SomeTestDoc');
-            $envelope_document->setDocumentId(1);
+//            $envelope_document = new DocuSign\eSign\Model\Document();
+//            $envelope_document->setUri('http://testshinehub.herokuapp.com/public/Docs/SignTest1.pdf');
+//            $envelope_document->setName('SomeTestDoc');
+//            $envelope_document->setDocumentId(1);
+//            $envelope_document->setFileExtension('pdf');
 
             $signers = new DocuSign\eSign\Model\Signer();
             $signers->setName('Jon Doe');
@@ -65,7 +66,7 @@ if(isset($loginInformation) && count($loginInformation) > 0) {
             $envelope_definition= new DocuSign\eSign\Model\EnvelopeTemplate();//['','','','','']
             $envelope_definition->setEmailSubject('Please Sign this');
             $envelope_definition->setStatus('sent');
-            $envelope_definition->setDocuments([$envelope_document]);
+            //$envelope_definition->setDocuments([$envelope_document]);
             $envelope_definition->setEnvelopeTemplateDefinition($envelope_template_definition);
             $envelope_definition->setRecipients($envelope_recipient);
 

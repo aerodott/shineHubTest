@@ -25,7 +25,7 @@
       <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/send.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
+            <state vertical-scroll-proportion="-2.9411764">
               <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
               <folding />
             </state>
@@ -57,8 +57,8 @@
       <file leaf-file-name="myTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/myTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5090498">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.5769231">
+              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -342,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/send.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
+        <state vertical-scroll-proportion="-2.9411764">
           <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
           <folding />
         </state>
@@ -430,10 +430,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Model/Document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.336887">
+          <caret line="550" column="20" selection-start-line="550" selection-start-column="20" selection-end-line="550" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/myTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5090498">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.5769231">
+          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
           <folding />
         </state>
       </provider>
