@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Material Bootstrap Wizard by Creative Tim</title>
+	<title>ShineHub</title>
 
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -100,14 +100,14 @@
 
 		                    	<div class="wizard-header">
 		                        	<h3 class="wizard-title">
-		                        		Book a Room
+		                        		Wanna Shine?
 		                        	</h3>
-									<h5>This information will let us know more about you.</h5>
+									<h5>Shine Like a Star While Saving like a Bank</h5>
 		                    	</div>
 								<div class="wizard-navigation">
 									<ul>
-			                            <li><a href="#details" data-toggle="tab">Account</a></li>
-			                            <li><a href="#captain" data-toggle="tab">Room Type</a></li>
+			                            <li><a href="#details" data-toggle="tab">Information</a></li>
+			                            <li><a href="#captain" data-toggle="tab">Package Type</a></li>
 			                            <li><a href="#description" data-toggle="tab">Extra Details</a></li>
 			                        </ul>
 								</div>
@@ -125,75 +125,67 @@
 													</span>
 													<div class="form-group label-floating">
 			                                          	<label class="control-label">Your Email</label>
-			                                          	<input name="name" type="text" class="form-control">
+			                                          	<input name="email" type="text" class="form-control">
 			                                        </div>
 												</div>
 
 												<div class="input-group">
 													<span class="input-group-addon">
-														<i class="material-icons">lock_outline</i>
+														<i class="material-icons">attach_money_outline</i>
 													</span>
 													<div class="form-group label-floating">
-			                                          	<label class="control-label">Your Password</label>
-			                                          	<input name="name2" type="password" class="form-control">
+			                                          	<label class="control-label">Monthly Bill</label>
+			                                          	<input name="bill" type="text" class="form-control">
 			                                        </div>
 												</div>
 
 		                                	</div>
 		                                	<div class="col-sm-6">
 		                                    	<div class="form-group label-floating">
-		                                        	<label class="control-label">Country</label>
-	                                        		<select class="form-control">
-														<option disabled="" selected=""></option>
-	                                                	<option value="Afghanistan"> Afghanistan </option>
-	                                                	<option value="Albania"> Albania </option>
-	                                                	<option value="Algeria"> Algeria </option>
-	                                                	<option value="American Samoa"> American Samoa </option>
-	                                                	<option value="Andorra"> Andorra </option>
-	                                                	<option value="Angola"> Angola </option>
-	                                                	<option value="Anguilla"> Anguilla </option>
-	                                                	<option value="Antarctica"> Antarctica </option>
-	                                                	<option value="...">...</option>
+		                                        	<label class="control-label">State</label>
+	                                        		<select class="form-control" name="state">
+														<option value="Capital Territory">Capital Territory</option>
+														<option value="New South Wales">New South Wales</option>
+														<option value="Northern Territory">Northern Territory</option>
+														<option value="Queensland">Queensland</option>
+														<option value="South Australia">South Australia</option>
+														<option value="Tasmania">Tasmania</option>
+														<option value="Victoria">Victoria</option>
+														<option value="Western Australia">Western Australia</option>
 		                                        	</select>
 		                                    	</div>
 												<div class="form-group label-floating">
-		                                        	<label class="control-label">Daily Budget</label>
-	                                        		<select class="form-control">
-														<option disabled="" selected=""></option>
-	                                                	<option value="Afghanistan"> < $100 </option>
-	                                                	<option value="Albania"> $100 - $499 </option>
-	                                                	<option value="Algeria"> $499 - $999 </option>
-	                                                	<option value="American Samoa"> $999+ </option>
-		                                        	</select>
+		                                        	<label class="control-label">Street Address</label>
+	                                        		<input name="address" type="text" class="form-control">
 		                                    	</div>
 		                                	</div>
 		                            	</div>
 		                            </div>
 		                            <div class="tab-pane" id="captain">
-		                                <h4 class="info-text">What type of room would you want? </h4>
+		                                <h4 class="info-text">What type of Package would you want? </h4>
 		                                <div class="row">
 		                                    <div class="col-sm-10 col-sm-offset-1">
 		                                        <div class="col-sm-4">
 		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="This is good if you travel alone.">
-		                                                <input type="radio" name="job" value="Design">
+		                                                <input type="radio" name="job" value="family">
 		                                                <div class="icon">
 		                                                    <i class="material-icons">weekend</i>
-		                                                </div>
-		                                                <h6>Single</h6>
-		                                            </div>
-		                                        </div>
-		                                        <div class="col-sm-4">
-		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this room if you're traveling with your family.">
-		                                                <input type="radio" name="job" value="Code">
-		                                                <div class="icon">
-		                                                    <i class="material-icons">home</i>
 		                                                </div>
 		                                                <h6>Family</h6>
 		                                            </div>
 		                                        </div>
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this room if you're traveling with your family.">
+		                                                <input type="radio" name="job" value="bighome">
+		                                                <div class="icon">
+		                                                    <i class="material-icons">home</i>
+		                                                </div>
+		                                                <h6>Big Home</h6>
+		                                            </div>
+		                                        </div>
 												<div class="col-sm-4">
 		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you are coming with your team.">
-		                                                <input type="radio" name="job" value="Code">
+		                                                <input type="radio" name="job" value="business">
 		                                                <div class="icon">
 		                                                    <i class="material-icons">business</i>
 		                                                </div>
@@ -205,17 +197,17 @@
 		                            </div>
 		                            <div class="tab-pane" id="description">
 		                                <div class="row">
-		                                    <h4 class="info-text"> Drop us a small description.</h4>
+		                                    <h4 class="info-text"> Do you have a specific Request?</h4>
 		                                    <div class="col-sm-6 col-sm-offset-1">
 	                                    		<div class="form-group">
-		                                            <label>Room description</label>
-		                                            <textarea class="form-control" placeholder="" rows="6"></textarea>
+		                                            <label>Extras...</label>
+		                                            <textarea class="form-control" placeholder="" rows="6" name="extra"></textarea>
 		                                        </div>
 		                                    </div>
 		                                    <div class="col-sm-4">
 		                                    	<div class="form-group">
 		                                            <label class="control-label">Example</label>
-		                                            <p class="description">"The room really nice name is recognized as being a really awesome room. We use it every sunday when we go fishing and we catch a lot. It has some kind of magic shield around it."</p>
+		                                            <p class="description">"I will like a battery rack and I have a shed where I want the battery installed 'cos of the unique styling of my house which is..."</p>
 		                                        </div>
 		                                    </div>
 		                                </div>
