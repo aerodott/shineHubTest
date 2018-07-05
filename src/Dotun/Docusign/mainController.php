@@ -177,15 +177,6 @@ class mainController
                     {
                         $envelopeApi = new DocuSign\eSign\Api\EnvelopesApi($apiClient);
 
-//                        $signHeretab = new DocuSign\eSign\Model\SignHere();
-//                        $signHeretab->setName('Sign Here');
-//                        $signHeretab->setDocumentId('1');
-//                        $signHeretab->setRecipientId('1');
-//                        $signHeretab->setPageNumber('1');
-//                        //$signHeretab->setAnchorString('X');
-//                        $signHeretab->setAnchorXOffset('100');
-//                        $signHeretab->setAnchorYOffset('-2');
-//                        $signHeretab->setTabLabel('Sign Here');
 
                         $signHere = new \DocuSign\eSign\Model\SignHere();
                         $signHere->setXPosition("300");
@@ -203,9 +194,6 @@ class mainController
                         $signFullname->setTabLabel('Name');
                         $signFullname->setXPosition("100");
                         $signFullname->setYPosition("300");
-//                        $signFullname->setAnchorXOffset('100');
-//                        $signFullname->setAnchorYOffset('-2');
-//                        $signFullname->setAnchorString("Name");
 
                         $signTextTabEmail = new DocuSign\eSign\Model\Text();
                         $signTextTabEmail->setName('Email');
@@ -236,7 +224,7 @@ class mainController
                         // instantiate a new envelope object and configure settings
                         $envelop_definition = new DocuSign\eSign\Model\EnvelopeDefinition();
                         $envelop_definition->setEmailSubject("[DocuSign PHP SDK] - Signature Request Sample");
-                        $envelop_definition->setTemplateId("764fbf0b-d984-4b7c-a3bf-e345e273e76e");
+                        $envelop_definition->setTemplateId("5e4419cb-0cb8-49e1-ac4c-f4b7d90e8161");
                         $envelop_definition->setTemplateRoles(array($templateRole));
 
                         // set envelope status to "sent" to immediately send the signature request
