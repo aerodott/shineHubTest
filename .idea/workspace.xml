@@ -22,73 +22,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/send.php">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9411764">
-              <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnvelopesApi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Api/EnvelopesApi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0588236">
-              <caret line="2794" column="20" selection-start-line="2794" selection-start-column="20" selection-end-line="2794" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplatesApi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Api/TemplatesApi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-776.549">
-              <caret line="4317" column="62" selection-start-line="4317" selection-start-column="40" selection-end-line="4317" selection-end-column="62" />
-              <folding>
-                <element signature="e#6#190#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/myTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.1561086">
-              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnvelopeTemplateDefinitionTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Swagger/Client/Tests/EnvelopeTemplateDefinitionTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0416665">
-              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docusign-php-client/test/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnvelopeTemplate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Model/EnvelopeTemplate.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oldTest/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9166667">
-              <caret line="311" column="20" selection-start-line="311" selection-start-column="20" selection-end-line="311" selection-end-column="20" />
+            <state vertical-scroll-proportion="-7.352941">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1530770096000" expanded="true" signature="6051:7053" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="6089:6522" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="6135:6206" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="6259:6503" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="6561:7010" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="6607:6693" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="6746:6991" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="7111:8339" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="7190:8005" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="7362:7959" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="8057:8297" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="8480:11004" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="8631:10967" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="8709:10926" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="8774:9436" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="8953:9387" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="9119:9268" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="9501:10167" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="9684:10118" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="9851:9997" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="10202:10881" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="10393:10832" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="10561:10711" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="11074:12023" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="11126:12023" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="11301:11656" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="11365:11611" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="11717:12023" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="11781:12023" placeholder="..." />
+                <marker date="1530770096000" expanded="true" signature="13044:13072" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +93,16 @@
         <option value="$PROJECT_DIR$/public/send.php" />
         <option value="$PROJECT_DIR$/docusign-php-client/src/Api/TemplatesApi.php" />
         <option value="$PROJECT_DIR$/docusign-php-client/src/ApiClient.php" />
+        <option value="$PROJECT_DIR$/docusign/composer.json" />
+        <option value="$PROJECT_DIR$/docusign/src/Dotun/mainController.php" />
+        <option value="$PROJECT_DIR$/docusign/test/phpunit.xml" />
+        <option value="$PROJECT_DIR$/docusign/test/bootstrap.php" />
         <option value="$PROJECT_DIR$/public/myTest.php" />
+        <option value="$PROJECT_DIR$/docusign/test/docutest.php" />
+        <option value="$PROJECT_DIR$/docusign/src/Dotun/Docusign/mainController.php" />
+        <option value="$PROJECT_DIR$/docusign/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/oldTest/public/index.php" />
       </list>
     </option>
   </component>
@@ -113,6 +112,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -143,7 +145,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,90 +163,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Docs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docusign-php-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docusign-php-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codeChallenge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docusign-php-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,10 +174,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docusign/src/Dotun/Docusign" />
     </key>
   </component>
   <component name="RunManager">
@@ -275,10 +200,19 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="486ed435-123c-4af4-a923-ddba7ad1ea46" name="Default" comment="" />
@@ -292,8 +226,8 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14862682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15105008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -314,6 +248,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -322,126 +264,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/test/UnitTests.php">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.125">
-          <caret line="338" column="5" selection-start-line="338" selection-start-column="5" selection-end-line="338" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oldTest/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.352941">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#6#70#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1530770096000" expanded="true" signature="6051:7053" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="6089:6522" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="6135:6206" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="6259:6503" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="6561:7010" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="6607:6693" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="6746:6991" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="7111:8339" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="7190:8005" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="7362:7959" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="8057:8297" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="8480:11004" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="8631:10967" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="8709:10926" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="8774:9436" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="8953:9387" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="9119:9268" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="9501:10167" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="9684:10118" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="9851:9997" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="10202:10881" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="10393:10832" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="10561:10711" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="11074:12023" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="11126:12023" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="11301:11656" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="11365:11611" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="11717:12023" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="11781:12023" placeholder="..." />
+            <marker date="1530770096000" expanded="true" signature="13044:13072" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Configuration.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/send.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9411764">
-          <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/test/TestConfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.133064">
-          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/test/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/test/TestConfig.php-sample">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Api/EnvelopesApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0588236">
-          <caret line="2794" column="20" selection-start-line="2794" selection-start-column="20" selection-end-line="2794" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Api/TemplatesApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-776.549">
-          <caret line="4317" column="62" selection-start-line="4317" selection-start-column="40" selection-end-line="4317" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#190#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Model/EnvelopeDefinition.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9275054">
-          <caret line="396" column="7" selection-start-line="396" selection-start-column="7" selection-end-line="396" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Model/EnvelopeTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9166667">
-          <caret line="311" column="20" selection-start-line="311" selection-start-column="20" selection-end-line="311" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Swagger/Client/Tests/EnvelopeTemplateDefinitionTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0416665">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/ObjectSerializer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3548386">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/ApiClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3070362">
-          <caret line="305" column="21" selection-start-line="305" selection-start-column="19" selection-end-line="305" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docusign-php-client/src/Model/Document.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.336887">
-          <caret line="550" column="20" selection-start-line="550" selection-start-column="20" selection-end-line="550" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/myTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.1561086">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
           <folding />
         </state>
       </provider>

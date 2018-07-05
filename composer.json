@@ -1,1 +1,29 @@
-{}
+{
+    "name": "dotun/docusign",
+    "description": "Docusign TestCase",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Arowolo Dotun",
+            "email": "aerodott@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+      },
+      "autoload": {
+        "psr-0": {
+          "Dotun\\Docusign": "src/"
+        }
+    },
+    "require": {
+        "docusign/esign-client": "^3.0",
+        "phpunit/phpunit": "6.0.*",
+        "phpunit/php-invoker": ">=1.1.0@stable"
+    },
+    "scripts": {
+        "test": [
+          "phpunit test/*.php"
+        ]
+      }
+}
