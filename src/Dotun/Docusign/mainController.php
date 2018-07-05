@@ -124,9 +124,9 @@ class mainController
                         $signTextTabEmail->setAnchorYOffset('-2');
 
                         $tab = new DocuSign\eSign\Model\Tabs();
-                        $tab->setSignHereTabs([$signHeretab]);
-                        $tab->setFullNameTabs([$signFullname]);
-                        $tab->setTextTabs([$signTextTabEmail]);
+//                        $tab->setSignHereTabs([$signHeretab]);
+//                        $tab->setFullNameTabs([$signFullname]);
+//                        $tab->setTextTabs([$signTextTabEmail]);
 
                         $signers = new DocuSign\eSign\Model\Signer();
                         $signers->setName('Jon Doe');
@@ -236,7 +236,7 @@ class mainController
                         // instantiate a new envelope object and configure settings
                         $envelop_definition = new DocuSign\eSign\Model\EnvelopeDefinition();
                         $envelop_definition->setEmailSubject("[DocuSign PHP SDK] - Signature Request Sample");
-                        $envelop_definition->setTemplateId("fa7d55fd-6603-4175-bba8-4da8c765ada0");
+                        $envelop_definition->setTemplateId("764fbf0b-d984-4b7c-a3bf-e345e273e76e");
                         $envelop_definition->setTemplateRoles(array($templateRole));
 
                         // set envelope status to "sent" to immediately send the signature request

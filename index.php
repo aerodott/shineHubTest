@@ -9,7 +9,7 @@ function router($route="index",$data=[])
 
 	$start = new mainController($data);
 	//$start->createTemplate($data);
-	//$start->createEnvelope();
+	$start->createEnvelope();
 
 	if($route == "makeTemplate")
 		$start->createTemplate($data); //data will be form submit data
