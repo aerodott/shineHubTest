@@ -224,7 +224,7 @@ class mainController
                         // instantiate a new envelope object and configure settings
                         $envelop_definition = new DocuSign\eSign\Model\EnvelopeDefinition();
                         $envelop_definition->setEmailSubject("[DocuSign PHP SDK] - Signature Request Sample");
-                        $envelop_definition->setTemplateId("5e4419cb-0cb8-49e1-ac4c-f4b7d90e8161");
+                        $envelop_definition->setTemplateId("e9770ffb-e5ec-42ec-9d3e-66ec433b42a1");
                         $envelop_definition->setTemplateRoles(array($templateRole));
 
                         // set envelope status to "sent" to immediately send the signature request
