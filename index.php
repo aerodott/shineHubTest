@@ -9,7 +9,7 @@ function router($route="index",$data=[])
 
 	$start = new mainController($data);
 	//$start->createTemplate($data);
-	$start->createEnvelope();
+	//$start->createEnvelope();
 
 	if($route == "makeTemplate")
 		$start->createTemplate($data); //data will be form submit data
@@ -22,7 +22,8 @@ function router($route="index",$data=[])
 	}
 }
 
-router();
+if(!empty($_POST['name']) && !empty($_POST['email']))
+	router("sendEnvelope",$_POST);
 
 ?>
 
@@ -149,21 +150,21 @@ router();
 		                                	<div class="col-sm-6">
 												<div class="input-group">
 													<span class="input-group-addon">
-														<i class="material-icons">email</i>
+														<i class="material-icons">person</i>
 													</span>
 													<div class="form-group label-floating">
-			                                          	<label class="control-label">Your Email</label>
-			                                          	<input name="email" type="text" class="form-control">
+			                                          	<label class="control-label">Your Name</label>
+			                                          	<input name="name" type="text" class="form-control">
 			                                        </div>
 												</div>
 
 												<div class="input-group">
 													<span class="input-group-addon">
-														<i class="material-icons">attach_money_outline</i>
+														<i class="material-icons">email</i>
 													</span>
 													<div class="form-group label-floating">
-			                                          	<label class="control-label">Monthly Bill</label>
-			                                          	<input name="bill" type="text" class="form-control">
+			                                          	<label class="control-label">Email</label>
+			                                          	<input name="email" type="text" class="form-control">
 			                                        </div>
 												</div>
 
@@ -244,7 +245,7 @@ router();
 	                        	<div class="wizard-footer">
 	                            	<div class="pull-right">
 	                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
-	                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+	                                    <input type='submit' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
 	                                </div>
 	                                <div class="pull-left">
 	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />

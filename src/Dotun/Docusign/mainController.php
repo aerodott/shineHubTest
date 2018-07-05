@@ -164,7 +164,7 @@ class mainController
 
     }
 
-    public function createEnvelope(){
+    public function createEnvelope($formData){
         try
         {
             $apiClient = $this->connection_object;
@@ -213,8 +213,8 @@ class mainController
                         $tab->setTextTabs([$signTextTabEmail]);
 
                         $templateRole = new  DocuSign\eSign\Model\TemplateRole();
-                        $templateRole->setEmail("aerodott@gmail.com");
-                        $templateRole->setName("Arowolo Dotun");
+                        $templateRole->setEmail($formData['email']);
+                        $templateRole->setName($formData['name']);
                         $templateRole->setRoleName("Worker");
                         $templateRole->setClientUserId($accountId); //to be disabled for non-embedded
                         $templateRole->setTabs($tab);
@@ -226,6 +226,7 @@ class mainController
                         $envelop_definition->setEmailSubject("[DocuSign PHP SDK] - Signature Request Sample");
                         $envelop_definition->setTemplateId("e9770ffb-e5ec-42ec-9d3e-66ec433b42a1");
                         $envelop_definition->setTemplateRoles(array($templateRole));
+                        $returnUrl=$envelop_definition->getRecipientsUri();
 
                         // set envelope status to "sent" to immediately send the signature request
                         $envelop_definition->setStatus("sent");
@@ -239,7 +240,8 @@ class mainController
                         $envelop_summary = $envelopeApi->createEnvelope($accountId, $envelop_definition, $options);
                         if(!empty($envelop_summary))
                         {
-                            echo "$envelop_summary";
+                           // echo "$envelop_summary";
+                            echo $returnUrl;
                         }
                     }
 
