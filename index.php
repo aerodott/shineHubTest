@@ -15,7 +15,7 @@ function router($route="index",$data=[])
 		$start->createTemplate($data); //data will be form submit data
 
 	if($route == "sendEnvelope")
-		$start->createEnvelope($data); //data will be templateId
+		return $start->createEnvelope($data); //data will be templateId
 
 	if($route == "doBoth"){
 		$start->createEnvelope($start->createTemplate($data));
@@ -23,9 +23,10 @@ function router($route="index",$data=[])
 }
 
 if(!empty($_POST['name']) && !empty($_POST['email']))
-	router("sendEnvelope",$_POST);
+	$link = router("sendEnvelope",$_POST);
 
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -53,7 +54,7 @@ if(!empty($_POST['name']) && !empty($_POST['email']))
 </head>
 
 <body>
-	
+
 	<nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top">
   <!-- top nav -->
   <nav class="navbar navbar-top hidden-xs">
@@ -106,10 +107,16 @@ if(!empty($_POST['name']) && !empty($_POST['email']))
     </nav>
   </nav> 
 <!--bg img  -->
-	
+
     <div class="image-container set-full-height" style="background-image: url('https://images.freeimages.com/images/large-previews/76c/solarpower-is-beautiful-part-2-1623758.jpg')">
 	    <!--   Creative Tim Branding   -->
-	    
+
+		<?php if(!empty($link)){ ?>
+		<div class="alert alert-success alert-dismissible" style="margin-top:145px; position: fixed; width: 80%; margin-left: 10%; z-index: 99999;">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<a href="<?php echo $link; ?>"><strong>Link Generated!</strong> <?php echo $link; ?> </a>
+		</div>
+		<?php } ?>
 
 		<!--  Made With Material Kit  -->
 		<a href="http://demos.creative-tim.com/material-kit/index.html?ref=material-bootstrap-wizard" class="made-with-mk" target="_blank">

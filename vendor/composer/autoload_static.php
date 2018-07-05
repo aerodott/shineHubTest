@@ -25,6 +25,11 @@ class ComposerStaticInitd3cf6144c525a625085f944151fd28c7
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
+        'A' => 
+        array (
+            'Aura\\Filter\\_Config\\' => 20,
+            'Aura\\Filter\\' => 12,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -49,6 +54,14 @@ class ComposerStaticInitd3cf6144c525a625085f944151fd28c7
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Aura\\Filter\\_Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/aura/filter/config',
+        ),
+        'Aura\\Filter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/aura/filter/src',
         ),
     );
 

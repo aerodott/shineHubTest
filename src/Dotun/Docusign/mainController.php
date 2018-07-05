@@ -4,6 +4,7 @@
 require_once __DIR__ . '/../../../vendor/autoload.php';
 
 use DocuSign\eSign\Configuration as Configuration;
+use Aura\Filter\FilterFactory;
 
 class mainController
 {
@@ -66,8 +67,8 @@ class mainController
 
     }
 
-    public function createTemplate(){
-
+    public function createTemplate($formData){
+        $this->formInputSanitation($formData);
        try{
            $apiClient = $this->connection_object;
            $loginAccount = $this->loginAccount;
@@ -150,7 +151,7 @@ class mainController
                         $envelop_summary = $templateApi->createTemplate($accountId,$envelope_definition);
                         if(!empty($envelop_summary))
                         {
-                            echo $envelop_summary;
+                            return $envelop_summary->getTemplateId();
                         }
 
 
@@ -165,6 +166,7 @@ class mainController
     }
 
     public function createEnvelope($formData){
+        $this->formInputSanitation($formData);
         try
         {
             $apiClient = $this->connection_object;
@@ -220,13 +222,11 @@ class mainController
                         $templateRole->setTabs($tab);
                         $templateRole->setEmbeddedRecipientStartUrl('SIGN_AT_DOCUSIGN');
 
-
                         // instantiate a new envelope object and configure settings
                         $envelop_definition = new DocuSign\eSign\Model\EnvelopeDefinition();
                         $envelop_definition->setEmailSubject("[DocuSign PHP SDK] - Signature Request Sample");
                         $envelop_definition->setTemplateId("e9770ffb-e5ec-42ec-9d3e-66ec433b42a1");
                         $envelop_definition->setTemplateRoles(array($templateRole));
-                        $returnUrl=$envelop_definition->getRecipientsUri();
 
                         // set envelope status to "sent" to immediately send the signature request
                         $envelop_definition->setStatus("sent");
@@ -238,10 +238,17 @@ class mainController
 
                         // create and send the envelope (aka signature request)
                         $envelop_summary = $envelopeApi->createEnvelope($accountId, $envelop_definition, $options);
-                        if(!empty($envelop_summary))
+
+                        $return_url_request = new \DocuSign\eSign\Model\ReturnUrlRequest();
+                        $return_url_request->setReturnUrl($envelop_summary->getUri());
+
+                        $senderView = $envelopeApi->createSenderView($accountId, $envelop_summary->getEnvelopeId(), $return_url_request);
+
+
+                        if(!empty($senderView))
                         {
-                           // echo "$envelop_summary";
-                            echo $returnUrl;
+                            return $senderView->getUrl();
+
                         }
                     }
 
@@ -251,6 +258,32 @@ class mainController
         {
             echo "Exception: " . $ex->getMessage() . "\n";
         }
+
+    }
+
+    public function generateTemplateSend(){
+        //This function will generate template instantly/dynamically and also send it by calling the two methods above but as it is not in the question, I will just let it be.
+
+    }
+
+    public function formInputSanitation($formData){
+        $filter_factory = new FilterFactory();
+
+        $filter = $filter_factory->newValueFilter();
+
+        $username = $formData['email'];
+
+//        $ok = $filter->validate($username, 'alnum')
+//            && $filter->validate($username, 'strlenBetween', 3, 30);
+//
+//        if (! $ok) {
+//            echo "The username is not valid.";
+//        }
+//
+//        $filter = $filter_factory->newSubjectFilter();
+//
+//       $filter->sanitize($formData['email'])->to('alnum');
+//       $filter->validate($formData['email'])->isNotBlank();
 
     }
 

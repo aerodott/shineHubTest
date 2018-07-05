@@ -11,4 +11,6 @@ return array(
     'DocuSign\\eSign\\' => array($vendorDir . '/docusign/esign-client/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
+    'Aura\\Filter\\_Config\\' => array($vendorDir . '/aura/filter/config'),
+    'Aura\\Filter\\' => array($vendorDir . '/aura/filter/src'),
 );

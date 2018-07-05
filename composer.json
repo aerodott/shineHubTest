@@ -19,7 +19,8 @@
     "require": {
         "docusign/esign-client": "^3.0",
         "phpunit/phpunit": "6.0.*",
-        "phpunit/php-invoker": ">=1.1.0@stable"
+        "phpunit/php-invoker": ">=1.1.0@stable",
+        "aura/filter": "^2.3"
     },
     "scripts": {
         "test": [
