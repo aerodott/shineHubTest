@@ -13,7 +13,7 @@
       },
       "autoload": {
         "psr-0": {
-          "Dotun\\Docusign": "src/"
+          "Dotun\\Docusign": "src/Dotun"
         }
     },
     "require": {
