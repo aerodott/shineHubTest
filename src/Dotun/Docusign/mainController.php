@@ -182,7 +182,7 @@ class mainController
 
                     $signTextTabEmail = new DocuSign\eSign\Model\Text();
                     $signTextTabEmail->setName('Email');
-                    $signTextTabEmail->setValue('aerodott@gmail.com');
+                    $signTextTabEmail->setValue($formData['email']);
                     $signTextTabEmail->setTabLabel('Email');
                     //$signTextTabEmail->setLocked('');
                     $signTextTabEmail->setDocumentId('1');
