@@ -228,7 +228,7 @@ class mainController
                     $recipView->setEmail($formData['email']);
                     $recipView->setUserName($formData['name']);
                     $recipView->setAuthenticationMethod('email');
-                    $recipView->setReturnUrl('https://www.docusign.com');
+                    $recipView->setReturnUrl('https://shinehub.com.au/');
 
                     $senderView = $envelopeApi->createRecipientView($accountId, $envelop_summary->getEnvelopeId(),$recipView);
 
