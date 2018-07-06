@@ -222,11 +222,15 @@ class mainController
                     // create and send the envelope (aka signature request)
                     $envelop_summary = $envelopeApi->createEnvelope($accountId, $envelop_definition, $options);
 
-                    $return_url_request = new \DocuSign\eSign\Model\ReturnUrlRequest();
-                    $return_url_request->setReturnUrl($envelop_summary->getUri());
+                    $recipView = new DocuSign\eSign\Model\RecipientViewRequest();
+                    $recipView->setClientUserId($accountId);
+                    $recipView->setRecipientId('1');
+                    $recipView->setEmail($formData['email']);
+                    $recipView->setUserName($formData['name']);
+                    $recipView->setAuthenticationMethod('email');
+                    $recipView->setReturnUrl('https://www.docusign.com');
 
-                    $senderView = $envelopeApi->createSenderView($accountId, $envelop_summary->getEnvelopeId(), $return_url_request);
-
+                    $senderView = $envelopeApi->createRecipientView($accountId, $envelop_summary->getEnvelopeId(),$recipView);
 
                     if (!empty($senderView)) {
                         return $senderView->getUrl();

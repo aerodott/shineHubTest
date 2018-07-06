@@ -22,8 +22,11 @@ function router($route="index",$data=[])
 	}
 }
 
-if(!empty($_POST['name']) && !empty($_POST['email']))
-	$link = router("sendEnvelope",$_POST);
+if(!empty($_POST['name']) && !empty($_POST['email'])) {
+	$start = new mainController($_POST);
+	$link = $start->createEnvelope($_POST);
+	header("Location: $link");
+}
 
 ?>
 
