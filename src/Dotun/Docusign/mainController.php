@@ -8,17 +8,20 @@ use Aura\Filter\FilterFactory;
 class mainController
 {
 
+    const USERNAME = '213ba94b-cb7a-4bd8-a11e-6cfbd3b0071d';
+    const PASSWORD = 'pingpong';
+    const KEY = '27616b49-0905-4fb9-aba4-383eef6ba1a7';
+    const HOST = 'https://demo.docusign.net/restapi';
+
     public $connection_object = "";
     private $loginAccount = "";
     private $loginInformation = "";
+    private $con = "";
 
     public function __construct($formData)
     {
-        define('USERNAME', '213ba94b-cb7a-4bd8-a11e-6cfbd3b0071d');
-        define('PASSWORD', 'pingpong');
-        define('KEY', '27616b49-0905-4fb9-aba4-383eef6ba1a7');
-        define('HOST', 'https://demo.docusign.net/restapi');
-        $this->init();
+        if($this->con=="")
+            $this->con=$this->init();
     }
 
     /**
@@ -37,8 +40,8 @@ class mainController
 
                 // create configuration object and configure custom auth header
                 $config = new DocuSign\eSign\Configuration();
-                $config->setHost(HOST);
-                $config->addDefaultHeader("X-DocuSign-Authentication", "{\"Username\":\"" . USERNAME . "\",\"Password\":\"" . PASSWORD . "\",\"IntegratorKey\":\"" . KEY . "\"}");
+                $config->setHost(self::HOST);
+                $config->addDefaultHeader("X-DocuSign-Authentication", "{\"Username\":\"" . self::USERNAME . "\",\"Password\":\"" . self::PASSWORD . "\",\"IntegratorKey\":\"" . self::KEY . "\"}");
 
                 // instantiate a new docusign api client
                 $apiClient = new DocuSign\eSign\ApiClient($config);
@@ -62,10 +65,10 @@ class mainController
                     // instantiate a NEW docusign api client (that has the correct baseUrl/host)
                     $apiClient = new DocuSign\eSign\ApiClient($config);
 
-                    $this->connection_object = $apiClient;
+                    return $this->connection_object = $apiClient;
                 }
             } catch (\Exception $e) {
-                echo "Could not connect";
+                return "Could not connect";
             }
 
     }
@@ -236,11 +239,14 @@ class mainController
                         return $senderView->getUrl();
 
                     }
+                    else{
+                        return "An error has occurred";
+                    }
                 }
 
             }
         } catch (DocuSign\eSign\ApiException $ex) {
-            echo "Exception: " . $ex->getMessage() . "\n";
+            return "An error has occurred: " . $ex->getMessage() . "\n";
         }
 
     }
